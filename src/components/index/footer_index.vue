@@ -42,7 +42,7 @@
 </template>
 <script>
     export default {
-        name:'footer_nomarl',
+        name:'footer_index',
         data(){
             return {
 

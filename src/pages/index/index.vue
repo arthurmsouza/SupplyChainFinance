@@ -1,6 +1,6 @@
 <template>
     <div class="">
-        <headerNormal></headerNormal>
+        <headerIndex></headerIndex>
         <div class="row text-center">
             <img src="@/assets/img/banner.png">
         </div>
@@ -67,12 +67,12 @@
                 <img src="@/assets/img/exhibition.png">
             </div>
         </div>
-        <TPfooter></TPfooter>
+        <FooterIndex></FooterIndex>
     </div>
 </template>
 <script>
 import headerIndex from '@/components/index/header_index';
-import TPfooter from '@/components/index/footer';
+import FooterIndex from '@/components/index/footer_index';
 export default {
 	name: 'index',
 	data() {
@@ -82,7 +82,7 @@ export default {
 	},
 	components: {
 		headerIndex,
-		TPfooter,
+		FooterIndex,
 	},
 };
 </script>

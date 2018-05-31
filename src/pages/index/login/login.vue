@@ -1,7 +1,7 @@
 <template>
     <div>
         <headerNormal></headerNormal>
-        <div class="bgAuto ptb70" style="background-image:url(../dist/img/loginBg.png);">
+        <div class="bgAuto ptb70" style="background-image:url(../static/img/loginBg.png);">
             <div class="formLogin loginBox prl90 pdt70 pdb110">
                 <div class="black2 tc fz20">登录</div>
                 <form name="" action="">
@@ -19,13 +19,13 @@
                 </form>
             </div>
         </div>
-        <TPfooter></TPfooter>
+        <FooterNormal></FooterNormal>
     </div>
 </template>
 <script>
 
 import headerNormal from '@/components/index/header_normal';
-import TPfooter from '@/components/index/footer';
+import FooterNormal from '@/components/index/footer_normal';
 export default {
 	name: 'login',
 	data() {
@@ -35,7 +35,7 @@ export default {
 	},
 	components: {
 		headerNormal,
-		TPfooter
+		FooterNormal
 	},
 };
 </script>

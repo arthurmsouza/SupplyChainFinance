@@ -5,7 +5,7 @@
             <img class="aradius mr10" src="http://iph.href.lu/47x47?text=占位图&fg=ff0000&bg=fefedd" width="47" height="47">
             <a class="mr10" href="">王少白</a>
             <a class="iconfont icon-shut mr40" href="javascript:;"></a>
-            <a class="btn btn1" href="../'index.html">返回首页</a>
+            <router-link to="/" class="btn btn1">返回首页</router-link>
         </div>
     </div>
 </template>

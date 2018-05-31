@@ -3,10 +3,11 @@
         <img class="pull-left" src="http://iph.href.lu/180x30?text=logo占位图&fg=ff0000&bg=fefedd">
         <div class="pull-right fz16 flh30 fw400">
             <span class="gray">{{msg}}，</span>
-            <a href="login.html" class="text-yellow mr10">登录</a>|
-            <a class="ml10 gray" href="register.html">注册</a>
+            <router-link to="/login" class="text-yellow mr10">登录</router-link>|
+            <router-link to="/register" class="ml10 gray">注册</router-link>
             <a class="ml20 gray" href="helpCenter.html">
-                <i class="iconfont icon-wenhao"></i> 帮助中心</a>
+                <i class="iconfont icon-wenhao"></i> 帮助中心
+            </a>
         </div>
     </div>
 </template>
