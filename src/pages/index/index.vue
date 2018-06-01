@@ -2,7 +2,7 @@
     <div class="">
         <headerIndex></headerIndex>
         <div class="row text-center">
-            <img src="@/assets/img/banner.png">
+            <img src="/../static/img/banner.png">
         </div>
         <div class="mauto mt40 w920">
             <div class="title1 tc">交易数据
@@ -64,7 +64,7 @@
                 <p></p>
             </div>
             <div class="mauto mt40 w920 tc">
-                <img src="@/assets/img/exhibition.png">
+                <img src="/../static/img/exhibition.png">
             </div>
         </div>
         <FooterIndex></FooterIndex>
