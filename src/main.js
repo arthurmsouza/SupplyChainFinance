@@ -13,14 +13,16 @@ import '../node_modules/bootstrap/dist/js/bootstrap.min'
 import "assets/css/public.css";
 /* custom fonts icon */
 import "assets/fonts/iconfont.css";
-
 //关闭生产环境的提示
 Vue.config.productionTip = false;
 
 // 引用API文件
-import api from '@/api/index.js'
+// import api from '@/api/index.js'
 // 将API方法绑定到全局
-Vue.prototype.$api = api
+// Vue.prototype.$api = api
+
+// 自定义过滤器导入 [一定放在实例化前]
+import { money, dateformat } from "@/directives/filters";
 
 /* eslint-disable no-new */
 new Vue({

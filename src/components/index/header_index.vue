@@ -1,6 +1,6 @@
 <template>
     <div class="row pd15 w1440 mauto clearfix">
-        <img class="pull-left" src="http://iph.href.lu/180x30?text=logo占位图&fg=ff0000&bg=fefedd">
+        <img class="pull-left" src="">
         <div class="pull-right fz16 flh30 fw400">
             <span class="gray">{{msg}}，</span>
             <router-link to="/login" class="text-yellow mr10">登录</router-link>|

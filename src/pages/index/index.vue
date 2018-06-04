@@ -9,6 +9,7 @@
                 <p></p>
             </div>
             <div class="title2 mt30">最近成交</div>
+            <p> {{msDate|dateformat}}--{moneys|money}}--{{stamp|formatdate}}--{{telFormat|telFormat}}--{{cardFormat|cardFormat}}</p>
             <table class="table dataTable mt15 text-center">
                 <thead>
                     <tr>
@@ -73,11 +74,17 @@
 <script>
 import headerIndex from '@/components/index/header_index';
 import FooterIndex from '@/components/index/footer_index';
+
 export default {
 	name: 'index',
 	data() {
 		return {
-			msg: '欢迎来到潞盈',
+            msg: '欢迎来到潞盈',
+            msDate:1514739661,
+            moneys:'50000000.123456789',
+            stamp:'2018-01-01 01:01:01',
+            telFormat:'18611650734',
+            cardFormat:'11022319850730727X'
 		};
 	},
 	components: {
